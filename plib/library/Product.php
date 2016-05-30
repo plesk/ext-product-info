@@ -4,7 +4,7 @@ class Modules_ProductInfo_Product
 {
     public function getInfo()
     {
-        $productInfo = [
+        return [
             'platform' => pm_ProductInfo::getPlatform(),
             'version' => pm_ProductInfo::getVersion(),
             'os name' => pm_ProductInfo::getOsName(),
@@ -12,6 +12,5 @@ class Modules_ProductInfo_Product
             'arch' => pm_ProductInfo::getOsArch(),
             'virtualization' => pm_ProductInfo::getVirtualization(),
         ];
-        return json_encode($productInfo, JSON_PRETTY_PRINT);
     }
 }
