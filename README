@@ -1,0 +1,7 @@
+Extension Product Information Example
+
+A test extension intended to demonstrate how to get product information such as OS name, version, virtualization type, etc.
+
+The following techniques are demonstrated:
+* Get product information.
+* Usage of product information in post-install script.
