@@ -7,6 +7,6 @@
   <version>1.0</version>
   <release>1</release>
   <vendor>Plesk</vendor>
-  <url>https://plesk.com</url>
+  <url>https://github.com/plesk/ext-product-info</url>
   <plesk_min_version>17.0.13</plesk_min_version>
 </module>
