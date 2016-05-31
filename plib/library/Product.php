@@ -5,12 +5,12 @@ class Modules_ProductInfo_Product
     public function getInfo()
     {
         return [
-            'platform' => pm_ProductInfo::getPlatform(),
-            'version' => pm_ProductInfo::getVersion(),
-            'os name' => pm_ProductInfo::getOsName(),
-            'os version' => pm_ProductInfo::getOsVersion(),
-            'arch' => pm_ProductInfo::getOsArch(),
-            'virtualization' => pm_ProductInfo::getVirtualization(),
+            'Platform' => pm_ProductInfo::getPlatform(),
+            'Product version' => pm_ProductInfo::getVersion(),
+            'OS name' => pm_ProductInfo::getOsName(),
+            'OS version' => pm_ProductInfo::getOsVersion(),
+            'Arch' => pm_ProductInfo::getOsArch(),
+            'Virtualization' => pm_ProductInfo::getVirtualization(),
         ];
     }
 }

@@ -1,4 +1,11 @@
 <?php
 // Copyright 1999-2016. Parallels IP Holdings GmbH.
 ?>
-<?php echo nl2br($this->osInfo); ?>
+<table>
+    <? foreach ($this->osInfo as $key => $value) : ?>
+        <tr>
+            <td><b><? echo $key . ":"; ?></b></td>
+            <td><? echo $value; ?></td>
+        </tr>
+    <? endforeach; ?>
+</table>
