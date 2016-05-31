@@ -4,8 +4,8 @@
 <table>
     <?php foreach ($this->osInfo as $key => $value): ?>
         <tr>
-            <td><b><?= $key . ":"; ?></b></td>
-            <td><?= $value; ?></td>
+            <td><b><?= $this->escape($key) . ":"; ?></b></td>
+            <td><?= $this->escape($value); ?></td>
         </tr>
     <?php endforeach; ?>
 </table>
