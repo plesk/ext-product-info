@@ -2,10 +2,10 @@
 // Copyright 1999-2016. Parallels IP Holdings GmbH.
 ?>
 <table>
-    <? foreach ($this->osInfo as $key => $value) : ?>
+    <?php foreach ($this->osInfo as $key => $value): ?>
         <tr>
-            <td><b><? echo $key . ":"; ?></b></td>
-            <td><? echo $value; ?></td>
+            <td><b><?= $key . ":"; ?></b></td>
+            <td><?= $value; ?></td>
         </tr>
-    <? endforeach; ?>
+    <?php endforeach; ?>
 </table>
