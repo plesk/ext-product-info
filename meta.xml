@@ -4,8 +4,9 @@
   <id>product-info</id>
   <name>Product Information</name>
   <description>Get product information example</description>
+  <category>example</category>
   <version>1.0</version>
-  <release>1</release>
+  <release>2</release>
   <vendor>Plesk</vendor>
   <url>https://github.com/plesk/ext-product-info</url>
   <plesk_min_version>17.0.13</plesk_min_version>
